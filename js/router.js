@@ -13,7 +13,7 @@ var router = app.config(function($stateProvider, $urlRouterProvider) {
     url: "/home",
     views: {
       'menuContent': {
-        templateUrl: "templates/home.html"
+        templateUrl: "templates/home.html",
          controller: 'HomeCtrl'
       }
     }
@@ -23,7 +23,7 @@ var router = app.config(function($stateProvider, $urlRouterProvider) {
     url: "/about",
     views: {
       'menuContent': {
-        templateUrl: "templates/about.html"
+        templateUrl: "templates/about.html",
          controller: 'AboutCtrl'
       }
     }
